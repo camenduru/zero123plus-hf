@@ -1,9 +1,10 @@
 ---
-title: Zero123plus Demo Space
-emoji: 📊
-colorFrom: yellow
-colorTo: blue
+title: Zero123++ Demo Space
+emoji: 🌒
+colorFrom: red
+colorTo: purple
 sdk: docker
+app_port: 8501
 pinned: false
 license: apache-2.0
 ---
