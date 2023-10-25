@@ -11,3 +11,4 @@ huggingface_hub
 git+https://github.com/facebookresearch/segment-anything.git
 gradio>=3.50
 fire
+accelerate
