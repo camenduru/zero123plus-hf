@@ -197,7 +197,7 @@ def run_demo():
                         inputs=[processed_image_highres, scale_slider, steps_slider, seed, output_processing],
                         outputs=[view_1, view_2, view_3, view_4, view_5, view_6])
         
-        demo.queue().launch(share=False, max_threads=80, server_name="0.0.0.0", server_port=7860)
+        demo.queue().launch(share=True, max_threads=80, server_name="0.0.0.0", server_port=7860)
 
 
 if __name__ == '__main__':
